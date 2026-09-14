@@ -45,7 +45,7 @@ docker build -t tabpfn-service .
 docker run --gpus all -p 8000:8000 -e PYTHONUNBUFFERED=1 --name tabpfn-server tabpfn-service
 ```
 
-During startup, the server inspects the GPU, logs the calibrated concurrency limit, and listens on port `8000`.
+During startup, the server inspects the GPU , logs the calibrated concurrency limit, and listens on port `8000`.
 
 ---
 
